@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence, Variants } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useGameStore, MoleType } from '@/store/gameStore';
 import { cn } from '@/lib/utils';
 import confetti from 'canvas-confetti';
 interface MoleBurrowProps {
   index: number;
 }
-const moleVariants: Variants = {
+const moleVariants = {
   hidden: { y: '100%', scale: 0.5, opacity: 0 },
   rising: { y: '20%', scale: 0.9, opacity: 1 },
-  up: {
-    y: '0%',
-    scale: 1,
+  up: { 
+    y: '0%', 
+    scale: 1, 
     opacity: 1,
-    transition: { type: 'spring', stiffness: 300, damping: 15 }
+    transition: { type: 'spring', stiffness: 300, damping: 15 } 
   },
-  hit: {
-    y: '40%',
-    scale: 0.8,
+  hit: { 
+    y: '40%', 
+    scale: 0.8, 
     opacity: 0.8,
     rotate: [0, -10, 10, 0],
     transition: { duration: 0.2 }

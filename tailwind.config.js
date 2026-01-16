@@ -6,6 +6,7 @@ export default {
   	extend: {
   		fontFamily: {
   			sans: [
+  				'Fredoka',
   				'Inter',
   				'-apple-system',
   				'BlinkMacSystemFont',
@@ -14,6 +15,7 @@ export default {
   				'sans-serif'
   			],
   			display: [
+  				'Fredoka',
   				'Cal Sans',
   				'Inter',
   				'system-ui',
@@ -86,11 +88,17 @@ export default {
   		borderRadius: {
   			'4xl': '2rem',
   			'5xl': '2.5rem',
+            'bubbly': '2rem',
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+            'kid-yellow': '#FFD700',
+            'kid-blue': '#4ECDC4',
+            'kid-red': '#FF6B6B',
+            'kid-green': '#95E1D3',
+            'kid-dark': '#2C3E50',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			muted: {
@@ -143,6 +151,9 @@ export default {
   			}
   		},
   		boxShadow: {
+            'cartoon': '4px 4px 0px 0px rgba(0,0,0,1)',
+            'cartoon-sm': '2px 2px 0px 0px rgba(0,0,0,1)',
+            'cartoon-lg': '8px 8px 0px 0px rgba(0,0,0,1)',
   			soft: '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
   			glow: '0 0 20px -5px rgba(99, 102, 241, 0.4)',
   			'glow-lg': '0 0 40px -10px rgba(99, 102, 241, 0.3)',
