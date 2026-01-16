@@ -1,6 +1,6 @@
 # Bop-a-Mole: Whimsical Whacking Adventure
 
-[aureliabutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/FlexsibleAdmin/bop-a-mole-whimsical-whacking-adventure)
 
 A vibrant, high-energy 'Whack-a-Mole' style arcade game designed with a 'Kid Playful' aesthetic. This project features a responsive 3x3 grid of colorful burrows where cute, stylized moles pop up randomly. Players must test their reflexes to score points, build combos, and avoid friendly bunnies in a race against the clock.
 
@@ -96,7 +96,7 @@ This project is configured for deployment on Cloudflare Workers.
 
 You can deploy this project instantly using the button below:
 
-[aureliabutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/FlexsibleAdmin/bop-a-mole-whimsical-whacking-adventure)
 
 ### Manual Deployment
 
